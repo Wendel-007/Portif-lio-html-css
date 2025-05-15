@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>Wendel Dev Portfolio</title>
+	</head>
+	<body>
+		<header id="main-header">
+			<div class="header-container">
+				<a href="#" class="logo">Wendel Dev</a>
+				<nav class="nav-links">
+					<a href="#hero-section">Home</a>
+					<a href="#about-section">Sobre Mim</a>
+					<a href="#skills-section">Habilidades</a>
+					<a href="#projects-section">Projetos</a>
+					<a href="#main-footer">Contato</a>
+				</nav>
+				<a href="mailto:wendel@email.com" class="hire-button"
+					>Contratar Serviço</a
+				>
+			</div>
+		</header>
+
+		<section id="hero-section">
+			<div class="description">
+				<p>
+					<span id="main-heading">👋 Olá, sou Wendel Dev!</span><br />
+					Sou um
+					<span class="highlight">Desenvolvedor FullStack</span> apaixonado por
+					desenvolvimento web! Eu amo trabalhar principalmente com o
+					<span class="highlight">front-End</span>
+					dos websites, mas também atuo com o
+					<span class="highlight">back-End</span>.
+				</p>
+				<div class="social-links">
+					<a href="https://www.linkedin.com/in/wendel-alves-6b7717214/"
+						><i class="fa-brands fa-linkedin"></i
+					></a>
+
+					<a href="https://github.com/Wendel-007"
+						><i class="fa-brands fa-github"></i
+					></a>
+					<a
+						href="https://www.instagram.com/wendel_wa?igsh=MTF4cTFmaWc0aWJveg=="
+						><i class="fa-brands fa-instagram"></i
+					></a>
+				</div>
+			</div>
+			<div class="profile-image-container">
+				<img
+					src="./assets/profile.jpg"
+					alt="Profile picture"
+					class="profile-image"
+				/>
+			</div>
+		</section>
+
+		<section id="about-section">
+			<h1 class="section-title">Sobre Mim</h1>
+			<div class="about-content">
+				<div class="about-illustration-container">
+					<div class="about-illustration">
+						<img src="./assets/code-svg.svg" alt="code" id="code-icon" />
+						<img src="./assets/cactus-svg.svg" alt="cactus" id="cactus-icon" />
+					</div>
+					<button>Baixe meu CV <i class="fa-solid fa-download"></i></button>
+				</div>
+				<div class="about-text">
+					<p>
+						Sou o Francisco Wendel, mas pode me chamar só de Wendel (fica mais
+						leve, né?). Sou um desenvolvedor Fullstack cearense, atualmente
+						estou cursando Engenharia de Computação na Universidade Federal do
+						Ceará (UFC) e trabalhando como Fullstack Web Developer na Eng. Alan
+						Araújo - Engenharia de Telecomunicações. Lá, mergulho de cabeça
+						tanto no front com React, Next.js e Tailwind, quanto no back com
+						Nest.js e PostgreSQL, sempre focado em escrever código limpo,
+						testável e de fácil manutenção. Gosto de trabalhar em equipe, sou
+						movido a desafios e acredito que tecnologia é mais do que código é
+						colaboração, empatia e impacto.
+					</p>
+					<p>
+						Me considero proativo, curioso e sempre em busca de aprender algo
+						novo (e aplicar na prática, claro!). Ah! E se você quiser trocar uma
+						ideia sobre projetos, código ou mesmo café e tecnologia, é só me
+						chamar! 🚀
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="skills-section">
+			<h1 class="section-title">Habilidades</h1>
+			<div class="skills-list">
+				<div class="skills-card">
+					<h2 class="skills-subtitle">Front-End</h2>
+					<div class="skill">
+						<span>HTML & CSS</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 95%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>JavaScript</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 90%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>React</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 85%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Next.js</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Tailwind CSS</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 90%"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="skills-card">
+					<h2 class="skills-subtitle">Back-End</h2>
+					<div class="skill">
+						<span>Node.js</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 85%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Nest.js</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 80%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>PostgreSQL</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 75%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Prisma ORM</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 70%"></div>
+						</div>
+					</div>
+					<div class="skill">
+						<span>Firebase</span>
+						<div class="skill-bar">
+							<div class="skill-fill" style="width: 65%"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="projects-section">
+			<h1 class="section-title">Meus Projetos</h1>
+			<div class="projects-grid">
+				<a
+					href="https://www.alanaraujo.eng.br/"
+					target="_blank"
+					class="project-card"
+				>
+					<img src="./assets/site-alan-araujo.png" alt="Project 1" />
+					<div class="project-overlay">
+						<i class="fa-up-right-from-square fa-solid"></i>
+					</div>
+				</a>
+				<a
+					href="https://cad-agil.vercel.app/login"
+					target="_blank"
+					class="project-card"
+				>
+					<img src="./assets/cad-agil.png" alt="Project 2" />
+					<div class="project-overlay">
+						<i class="fa-up-right-from-square fa-solid"></i>
+					</div>
+				</a>
+				<a
+					href="https://www.clubedefibra.com.br/"
+					target="_blank"
+					class="project-card"
+				>
+					<img src="./assets/clube-de-fibra.png" alt="Project 3" />
+					<div class="project-overlay">
+						<i class="fa-up-right-from-square fa-solid"></i>
+					</div>
+				</a>
+			</div>
+		</section>
+		<footer id="main-footer">
+			<div class="footer-container">
+				<div class="footer-column">
+					<h2>Wendel Dev</h2>
+					<p>
+						Transformando ideias em soluções digitais com código limpo, moderno
+						e eficiente.
+					</p>
+				</div>
+				<div class="footer-column">
+					<h3>Contatos</h3>
+					<ul>
+						<li>
+							<a href="mailto:wendeldev007@gmail.com"
+								><i class="fas fa-envelope"></i>wendeldev007@gmail.com</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.linkedin.com/in/wendel-alves-6b7717214/"
+								target="_blank"
+								><i class="fab fa-linkedin"></i> LinkedIn</a
+							>
+						</li>
+						<li>
+							<a href="https://github.com/Wendel-007" target="_blank"
+								><i class="fab fa-github"></i> GitHub</a
+							>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-column">
+					<h3>Vamos nos conectar</h3>
+					<div class="footer-social">
+						<a
+							href="https://www.linkedin.com/in/wendel-alves-6b7717214/"
+							target="_blank"
+							aria-label="LinkedIn"
+						>
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+						<a
+							href="https://github.com/Wendel-007"
+							target="_blank"
+							aria-label="GitHub"
+						>
+							<i class="fab fa-github"></i>
+						</a>
+						<a
+							href="mailto:wendeldev007@gmail.com"
+							target="_blank"
+							aria-label="Email"
+						>
+							<i class="fas fa-envelope"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>© 2025 Wendel Dev</p>
+			</div>
+		</footer>
+	</body>
+</html>
